@@ -11,6 +11,7 @@ public abstract class Vehicle implements Llogable {
     protected Roda[] rodes; // Diàmetre de les rodes (totes iguals).
     protected EtiquetaAmbiental etiquetaAmbiental;
  //constructor
+<<<<<<< Updated upstream
     public Vehicle(String matricula, String marca, String model, double preuBase, Motor motor, Roda[] rodes) {
         this.matricula = matricula;
         this.marca = marca;
@@ -20,6 +21,17 @@ public abstract class Vehicle implements Llogable {
         this.rodes = rodes;
         this.etiquetaAmbiental = calcularEtiqueta();
     }
+=======
+ public Vehicle(String matricula, String marca, String model, double preuBase, Motor motor, Roda[] rodes, EtiquetaAmbiental etiquetaAmbiental) {
+     this.matricula = matricula;
+     this.marca = marca;
+     this.model = model;
+     this.preuBase = preuBase;
+     this.motor = motor;
+     this.rodes = rodes;
+     this.etiquetaAmbiental = calcularEtiqueta();
+ }
+>>>>>>> Stashed changes
 
     protected  EtiquetaAmbiental calcularEtiqueta() {
         if (motor == null) {
