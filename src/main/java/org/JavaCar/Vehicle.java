@@ -1,6 +1,5 @@
 package org.JavaCar;
-
-
+import org.JavaCar.EtiquetaAmbiental;
 
 public abstract class Vehicle implements Llogable {
     // Atributs (protected per accés des de subclasses)
@@ -19,7 +18,7 @@ public abstract class Vehicle implements Llogable {
         this.preuBase = preuBase;
         this.motor = motor;
         this.rodes = rodes;
-        this.etiquetaAmbiental = etiquetaAmbiental;
+        this.etiquetaAmbiental = calcularEtiqueta();
     }
 
     protected  EtiquetaAmbiental calcularEtiqueta() {

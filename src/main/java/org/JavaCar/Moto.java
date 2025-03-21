@@ -1,5 +1,5 @@
 package org.JavaCar;
-
+import org.JavaCar.EtiquetaAmbiental;
 /**
  * Classe que representa una moto de lloguer.
  */
