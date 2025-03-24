@@ -1,5 +1,4 @@
 package org.JavaCar;
-import org.JavaCar.EtiquetaAmbiental;
 
 public abstract class Vehicle implements Llogable {
     // Atributs (protected per accés des de subclasses)
@@ -10,8 +9,8 @@ public abstract class Vehicle implements Llogable {
     protected Motor motor;
     protected Roda[] rodes; // Diàmetre de les rodes (totes iguals).
     protected EtiquetaAmbiental etiquetaAmbiental;
- //constructor
-<<<<<<< Updated upstream
+
+    // Constructor unificado (Calcula automáticamente la etiqueta ambiental)
     public Vehicle(String matricula, String marca, String model, double preuBase, Motor motor, Roda[] rodes) {
         this.matricula = matricula;
         this.marca = marca;
@@ -21,24 +20,14 @@ public abstract class Vehicle implements Llogable {
         this.rodes = rodes;
         this.etiquetaAmbiental = calcularEtiqueta();
     }
-=======
- public Vehicle(String matricula, String marca, String model, double preuBase, Motor motor, Roda[] rodes, EtiquetaAmbiental etiquetaAmbiental) {
-     this.matricula = matricula;
-     this.marca = marca;
-     this.model = model;
-     this.preuBase = preuBase;
-     this.motor = motor;
-     this.rodes = rodes;
-     this.etiquetaAmbiental = calcularEtiqueta();
- }
->>>>>>> Stashed changes
 
-    protected  EtiquetaAmbiental calcularEtiqueta() {
+    // Método para calcular la etiqueta ambiental
+    protected EtiquetaAmbiental calcularEtiqueta() {
         if (motor == null) {
-            return EtiquetaAmbiental.NONE; //el none es que no tiene etiqueta medioambiental
+            return EtiquetaAmbiental.NONE; // Sin etiqueta ambiental
         }
 
-        switch (motor.getTipus().toLowerCase()){
+        switch (motor.getTipus().toLowerCase()) {
             case "electric":
                 return EtiquetaAmbiental.ZERO;
             case "híbrid":
@@ -51,7 +40,8 @@ public abstract class Vehicle implements Llogable {
                 return EtiquetaAmbiental.NONE;
         }
     }
-    //getters
+
+    // Getters
     public String getMatricula() {
         return matricula;
     }
@@ -79,8 +69,7 @@ public abstract class Vehicle implements Llogable {
     public EtiquetaAmbiental getEtiquetaAmbiental() {
         return etiquetaAmbiental;
     }
-    //metodo abstracto que implenta las subclases
+
+    // Método abstracto que implementan las subclases
     public abstract double calcularPreu(int dies);
-
 }
-
