@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="729cb48f-af5f-4b77-9dbb-0e8fa05bfcfe" name="Changes" comment="">
+    <list default="true" id="54aeff31-e8b2-4a99-aa64-7c60dfaf1359" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/GestorLloguers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/GestorLloguers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/Vehicle.java" afterDir="false" />
-=======
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +16,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< Updated upstream
-=======
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2ul9Wzgypzb3eZC1GSxPmtDOrMk" />
->>>>>>> Stashed changes
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ulCwxL6moF9phRoU3vUVDOPXFj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +29,7 @@
     "JUnit.FurgonetaTest.executor": "Run",
     "JUnit.LlogableGestorTest.executor": "Run",
     "JUnit.MotoTest.executor": "Run",
+    "JUnit.MotorTest.executor": "Run",
     "JUnit.RodaTest.executor": "Run",
     "JUnit.VehicleTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,7 +43,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LlogableGestorTest">
+  <component name="RunManager" selected="JUnit.VehicleTest">
     <configuration name="FurgonetaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCar" />
       <extension name="coverage">
@@ -66,21 +59,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlogableGestorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.JavaCar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.JavaCar" />
-      <option name="MAIN_CLASS_NAME" value="org.JavaCar.LlogableGestorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MotoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCar" />
       <extension name="coverage">
@@ -91,6 +69,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.JavaCar" />
       <option name="MAIN_CLASS_NAME" value="org.JavaCar.MotoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.JavaCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.JavaCar" />
+      <option name="MAIN_CLASS_NAME" value="org.JavaCar.MotorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,14 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LlogableGestorTest" />
-        <item itemvalue="JUnit.FurgonetaTest" />
-<<<<<<< Updated upstream
-=======
         <item itemvalue="JUnit.VehicleTest" />
         <item itemvalue="JUnit.RodaTest" />
->>>>>>> Stashed changes
         <item itemvalue="JUnit.MotoTest" />
+        <item itemvalue="JUnit.MotorTest" />
+        <item itemvalue="JUnit.FurgonetaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,14 +140,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="729cb48f-af5f-4b77-9dbb-0e8fa05bfcfe" name="Changes" comment="" />
-      <created>1742808104806</created>
+      <changelist id="54aeff31-e8b2-4a99-aa64-7c60dfaf1359" name="Changes" comment="" />
+      <created>1742814016791</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742808104806</updated>
-      <workItem from="1742808106120" duration="2562000" />
-      <workItem from="1742812332623" duration="203000" />
-      <workItem from="1742812549649" duration="1290000" />
+      <updated>1742814016791</updated>
+      <workItem from="1742814018576" duration="299000" />
     </task>
     <servers />
   </component>
