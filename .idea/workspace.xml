@@ -5,45 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54aeff31-e8b2-4a99-aa64-7c60dfaf1359" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/Alquiler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/GestorLloguers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/GestorLloguers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/Cotxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/Cotxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/JavaCar/Cotxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/JavaCar/Cotxe.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ulCwxL6moF9phRoU3vUVDOPXFj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.FurgonetaTest.executor": "Run",
-    "JUnit.LlogableGestorTest.executor": "Run",
-    "JUnit.MotoTest.executor": "Run",
-    "JUnit.MotorTest.executor": "Run",
-    "JUnit.RodaTest.executor": "Run",
-    "JUnit.VehicleTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FurgonetaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LlogableGestorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MotoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MotorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RodaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VehicleTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.VehicleTest">
+}</component>
+  <component name="RunManager" selected="JUnit.FurgonetaTest">
     <configuration name="FurgonetaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCar" />
       <extension name="coverage">
@@ -121,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FurgonetaTest" />
         <item itemvalue="JUnit.VehicleTest" />
         <item itemvalue="JUnit.RodaTest" />
         <item itemvalue="JUnit.MotoTest" />
         <item itemvalue="JUnit.MotorTest" />
-        <item itemvalue="JUnit.FurgonetaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +155,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742814016791</updated>
-      <workItem from="1742814018576" duration="299000" />
+      <workItem from="1742814018576" duration="337000" />
+      <workItem from="1742814385943" duration="369000" />
+      <workItem from="1742894958582" duration="1878000" />
+      <workItem from="1742898997918" duration="3000" />
+      <workItem from="1742899012912" duration="79000" />
+      <workItem from="1742925030973" duration="291000" />
     </task>
     <servers />
   </component>
