@@ -1,5 +1,6 @@
 package org.JavaCar;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GestorLloguers {
@@ -12,5 +13,16 @@ public class GestorLloguers {
         }
 
         return total; // Devolver el total calculado
+    }
+    // Filtra vehicles amb preu igual o inferior al preu màxim especificat
+    public static List<Vehicle> filtrarPerPreu(List<Vehicle> vehicles, double preuMax, int dies) {
+        List<Vehicle> vehiclesFiltrats = new ArrayList<>();
+
+        for (Vehicle vehicle : vehicles) {
+            if (vehicle.calcularPreu(dies) <= preuMax) {
+                vehiclesFiltrats.add(vehicle);
+            }
+        }
+        return vehiclesFiltrats;
     }
 }
