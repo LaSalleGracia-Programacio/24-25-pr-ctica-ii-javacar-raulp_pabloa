@@ -17,4 +17,11 @@ public class Lloguer {
         this.dataFi = dataFi;
         this.preuPagat = preuPagat;
     }
+
+    // Getters
+    public Vehicle getVehicle() { return vehicle; }
+    public String getClientId() { return clientId; }
+    public LocalDate getDataInici() { return dataInici; }
+    public LocalDate getDataFi() { return dataFi; }
+    public double getPreuPagat() { return preuPagat; }
 }
