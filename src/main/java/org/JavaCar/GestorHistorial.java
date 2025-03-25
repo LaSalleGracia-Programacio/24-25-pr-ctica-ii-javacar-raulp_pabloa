@@ -24,4 +24,14 @@ public class GestorHistorial {
         }
         return resultado;
     }
+    // Consultar historial de alquileres por vehículo
+    public List<Lloguer> consultarHistorialPorVehiculo(String matricula) {
+        List<Lloguer> resultado = new ArrayList<>();
+        for (Lloguer lloguer : historial) {
+            if (lloguer.getVehicle().getMatricula().equals(matricula)) {
+                resultado.add(lloguer);
+            }
+        }
+        return resultado;
+    }
 }
