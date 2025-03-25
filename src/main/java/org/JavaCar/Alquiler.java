@@ -16,5 +16,9 @@ public class Alquiler {
         this.fechaFin = fechaFin;
         this.precioTotal = calcularPrecio();
     }
+    private double calcularPrecio() {
+        int dias = fechaFin.getDayOfYear() - fechaInicio.getDayOfYear();
+        return vehiculo.getPreu() * dias;  // Precio por día * días de alquiler
+    }
 
 }
