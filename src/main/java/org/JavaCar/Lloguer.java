@@ -10,12 +10,22 @@ public class Lloguer {
     private double preuPagat;
 
     // Constructor
-    public Lloguer(Vehicle vehicle, String clientId, LocalDate dataInici, LocalDate dataFi, double preuPagat) {
+    public Lloguer(Vehicle vehicle, String clientId, LocalDate dataInici, LocalDate dataFi) {
         this.vehicle = vehicle;
         this.clientId = clientId;
         this.dataInici = dataInici;
         this.dataFi = dataFi;
-        this.preuPagat = preuPagat;
+        this.preuPagat = calcularPreuFinal();
+    }
+
+    // Calcular el precio final con descuento
+    private double calcularPreuFinal() {
+        int dies = (int) (dataFi.toEpochDay() - dataInici.toEpochDay());
+        double preuTotal = vehicle.calcularPreu(dies);
+        if (dies > 7) {
+            preuTotal *= 0.9; // Aplicar el 10% de descuento
+        }
+        return preuTotal;
     }
 
     // Getters
