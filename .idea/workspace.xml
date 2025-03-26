@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54aeff31-e8b2-4a99-aa64-7c60dfaf1359" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/GestorLloguers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/GestorLloguers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ulCwxL6moF9phRoU3vUVDOPXFj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,8 +32,10 @@
     "JUnit.RodaTest.executor": "Run",
     "JUnit.VehicleTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/perez/Documents/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,7 +45,7 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.VehicleTest">
-    <configuration name="FurgonetaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LlogableGestorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCar" />
       <extension name="coverage">
         <pattern>
@@ -53,7 +54,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.JavaCar" />
-      <option name="MAIN_CLASS_NAME" value="org.JavaCar.FurgonetaTest" />
+      <option name="MAIN_CLASS_NAME" value="org.JavaCar.LlogableGestorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,15 +126,15 @@
         <item itemvalue="JUnit.RodaTest" />
         <item itemvalue="JUnit.MotoTest" />
         <item itemvalue="JUnit.MotorTest" />
-        <item itemvalue="JUnit.FurgonetaTest" />
+        <item itemvalue="JUnit.LlogableGestorTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -146,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742814016791</updated>
       <workItem from="1742814018576" duration="299000" />
+      <workItem from="1742893356666" duration="23000" />
     </task>
     <servers />
   </component>
