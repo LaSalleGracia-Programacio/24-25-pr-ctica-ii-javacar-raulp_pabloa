@@ -10,7 +10,7 @@ public class Lloguer {
     private double preuPagat;
 
     // Constructor
-    public Lloguer(Vehicle vehicle, String clientId, LocalDate dataInici, LocalDate dataFi) {
+    public Lloguer(Vehicle vehicle, String clientId, LocalDate dataInici, LocalDate dataFi, double precioTotal) {
         this.vehicle = vehicle;
         this.clientId = clientId;
         this.dataInici = dataInici;
