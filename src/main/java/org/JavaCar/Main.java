@@ -110,7 +110,7 @@ public class Main {
                         }
 
                         Lloguer alquiler = new Lloguer(vehicleAlquilado, clientId, fechaInicio, fechaFin, precioTotal);
-                        historial.add(alquiler);
+                        historial.add(alquiler.getVehicle());
                         System.out.println("Alquiler registrado con éxito. Precio total: " + precioTotal);
                     } else {
                         System.out.println("Vehículo no encontrado.");
@@ -137,6 +137,9 @@ public class Main {
 
 
                 case 6:
+                    System.out.print("Ingrese su ID de cliente para calcular los ingresos: ");
+                    clientIdHistorial = scanner.nextLine();
+
                     double ingresosTotales = 0;
                     List<Lloguer> historialIngresos = GestorHistorial.consultarHistorialPorCliente(clientIdHistorial);
 
@@ -146,8 +149,6 @@ public class Main {
 
                     System.out.println("Ingresos totales: " + ingresosTotales);
                     break;
-
-
 
                 case 7:
                     System.out.print("Ingrese la matrícula del vehículo para ver la etiqueta ambiental: ");

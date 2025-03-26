@@ -15,7 +15,7 @@ public class GestorHistorial {
     }
 
     // Consultar historial de alquileres por cliente
-    public List<Lloguer> consultarHistorialPorCliente(String clientId) {
+    public static List<Lloguer> consultarHistorialPorCliente(String clientId) {
         List<Lloguer> resultado = new ArrayList<>();
         for (Lloguer lloguer : historial) {
             if (lloguer.getClientId().equals(clientId)) {
