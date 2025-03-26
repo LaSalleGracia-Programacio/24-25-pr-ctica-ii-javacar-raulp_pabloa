@@ -121,8 +121,13 @@ public class Main {
                     System.out.print("Ingrese su ID de cliente para ver el historial: ");
                     String clientIdHistorial = scanner.nextLine();
                     System.out.println("Historial de alquileres:");
-                    for (Lloguer alquiler : historial) {
-                        if (alquiler.getClientId().equals(clientIdHistorial)) {
+
+                    List<Lloguer> historialCliente = GestorHistorial.consultarHistorialPorCliente(clientIdHistorial);
+
+                    if (historialCliente.isEmpty()) {
+                        System.out.println("No hay alquileres registrados para este cliente.");
+                    } else {
+                        for (Lloguer alquiler : historialCliente) {
                             System.out.println("Vehículo: " + alquiler.getVehicle().getMarca() + " " + alquiler.getVehicle().getModel());
                             System.out.println("Fechas: " + alquiler.getDataInici() + " - " + alquiler.getDataFi());
                             System.out.println("Precio pagado: " + alquiler.getPreuPagat());
@@ -130,10 +135,19 @@ public class Main {
                     }
                     break;
 
+
                 case 6:
-                    double ingresosTotales = historial.stream().mapToDouble(Lloguer::getPreuPagat).sum();
+                    double ingresosTotales = 0;
+                    List<Lloguer> historialIngresos = GestorHistorial.consultarHistorialPorCliente(clientIdHistorial);
+
+                    for (Lloguer alquiler : historialIngresos) {
+                        ingresosTotales += alquiler.getPreuPagat();
+                    }
+
                     System.out.println("Ingresos totales: " + ingresosTotales);
                     break;
+
+
 
                 case 7:
                     System.out.print("Ingrese la matrícula del vehículo para ver la etiqueta ambiental: ");

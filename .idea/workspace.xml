@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54aeff31-e8b2-4a99-aa64-7c60dfaf1359" name="Changes" comment="commit de xml listo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/Lloguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/Lloguer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/JavaCar/Lloguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/JavaCar/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/JavaCar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JavaCar/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,7 @@
       <workItem from="1742899012912" duration="79000" />
       <workItem from="1742925030973" duration="2705000" />
       <workItem from="1742927965608" duration="2382000" />
-      <workItem from="1742990655320" duration="245000" />
+      <workItem from="1742990655320" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="commit de xml listo">
       <option name="closed" value="true" />
